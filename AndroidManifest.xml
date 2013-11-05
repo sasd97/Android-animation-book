@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.animationdemos"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.animationdemos.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.AnimationButtons"
+            android:label="@string/title_activity_animation_buttons" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.ListViewAnimation"
+            android:label="@string/title_activity_list_view_animation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.ListViewDeletion"
+            android:label="@string/title_activity_list_view_deletion" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.animationdemos.ValueActivity" />
+        <activity
+            android:name="com.example.animationdemos.PropertyAnimations"
+            android:label="@string/title_activity_property_animations" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.KeyframeAnimation"
+            android:label="@string/title_activity_keyframe_animation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.CrossFading"
+            android:label="@string/title_activity_cross_fading" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.WindowAnimations"
+            android:label="@string/title_activity_window_animations" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.SubActivity"
+            android:label="@string/title_activity_sub" >
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.BitmapAllocation"
+            android:label="@string/title_activity_bitmap_allocation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.LayoutAnimation"
+            android:label="@string/title_activity_layout_animation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.PictureViewerActivity"
+            android:label="@string/title_activity_picture_viewer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.WindowCustomAnimation"
+            android:label="@string/title_activity_window_custom_animation"
+            android:theme="@style/transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.PictureDetailsActivity"
+            android:label="@string/title_activity_picture_details" >
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.SweepDelActivity"
+            android:label="@string/title_activity_sweep_del" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
