@@ -140,6 +140,24 @@
                 <category android:name="com.animation.demos.EXAMPLE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.animationdemos.PropertyAnimHolder"
+            android:label="@string/title_activity_property_anim_holder" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.animationdemos.SendDataActivity"
+            android:label="@string/title_activity_send_data" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="com.animation.demos.EXAMPLE" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
