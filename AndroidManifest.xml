@@ -140,10 +140,6 @@
                 <category android:name="com.animation.demos.EXAMPLE" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.animationdemos.XMLParserActivity"
-            android:label="@string/title_activity_xmlparser" >
-        </activity>
     </application>
 
 </manifest>
